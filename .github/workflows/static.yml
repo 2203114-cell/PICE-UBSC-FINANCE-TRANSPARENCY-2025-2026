@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PICE-UBSC | Finance Transparency</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f7f9fc;
+      color: #333;
+    }
+    header {
+      background: #0b3c5d;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+    header p {
+      margin-top: 8px;
+      font-size: 14px;
+      opacity: 0.9;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .section {
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+    .section h2 {
+      margin-top: 0;
+      color: #0b3c5d;
+    }
+    .note {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 15px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      font-size: 14px;
+    }
+    table th {
+      background: #f0f3f7;
+    }
+    a.button {
+      display: inline-block;
+      padding: 10px 16px;
+      background: #0b3c5d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 14px;
+    }
+    a.button:hover {
+      background: #092f48;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PICE-UBSC Finance Transparency</h1>
+    <p>Promoting accountability and transparency for all engineering students</p>
+  </header>
+
+  <div class="container">
+
+    <div class="section">
+      <h2>About This Page</h2>
+      <p class="note">
+        This Finance Transparency page is dedicated to providing PICE-UBSC members and students with open access to
+        official financial reports, budgets, and liquidation statements of the organization.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Financial Reports</h2>
+      <p class="note">
+        Below are the available financial documents. All reports are approved by the Finance Committee and Executive Board.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Report Title</th>
+            <th>Academic Year</th>
+            <th>Date Published</th>
+            <th>Download</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Annual Budget Report</td>
+            <td>AY 2024–2025</td>
+            <td>August 2024</td>
+            <td><a href="#" class="button">View PDF</a></td>
+          </tr>
+          <tr>
+            <td>Mid-Year Financial Statement</td>
+            <td>AY 2024–2025</td>
+            <td>January 2025</td>
+            <td><a href="#" class="button">View PDF</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2>Uploading New Reports (Admin Only)</h2>
+      <p class="note">
+        To keep this site secure and simple, reports are uploaded via an official Google Drive folder.
+        The Finance Officer updates the links shown above.
+      </p>
+      <ol class="note">
+        <li>Upload the PDF report to the official PICE-UBSC Google Drive.</li>
+        <li>Set the file permission to <strong>Anyone with the link – Viewer</strong>.</li>
+        <li>Replace the "View PDF" link in the table with the file link.</li>
+      </ol>
+    </div>
+
+  </div>
+
+  <footer>
+    © 2025 PICE-UBSC | Finance Transparency Page
+  </footer>
+
+</body>
+</html>
